@@ -13,7 +13,7 @@ public class CalculatorView {
     public char getOperator() {
         System.out.print("Enter operator (+, -, *, /): ");
         return scanner.next().charAt(0);//
-    }
+    }//
 
     public void displayResult(double result) {
         System.out.println("Result: " + result);
