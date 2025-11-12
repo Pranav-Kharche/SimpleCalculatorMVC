@@ -8,6 +8,7 @@ public class CalculatorModel {
             case '*': return num1 * num2;
             case '/': return num2 != 0 ? num1 / num2 : Double.NaN;
             default: throw new IllegalArgumentException("Invalid operator");
+            //for commit changes
         }
     }
 }
