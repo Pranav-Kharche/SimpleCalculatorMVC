@@ -12,7 +12,7 @@ public class CalculatorApp {
 
         double num1 = view.getNumber("Enter first number: ");
         double num2 = view.getNumber("Enter second number: ");
-        char operator = view.getOperator();
+        char operator = view.getOperator();//abcd
 
         controller.calculate(operator, num1, num2);
     }
