@@ -15,5 +15,6 @@ public class CalculatorApp {
         char operator = view.getOperator();
 
         controller.calculate(operator, num1, num2);
+        //changes made by manish for testing
     }
 }
