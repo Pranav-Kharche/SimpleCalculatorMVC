@@ -7,7 +7,7 @@ public class CalculatorView {
 
     public double getNumber(String prompt) {
         System.out.print(prompt);
-        return scanner.nextDouble();
+        return scanner.nextDouble();//aaaaa
     }
 
     public char getOperator() {
